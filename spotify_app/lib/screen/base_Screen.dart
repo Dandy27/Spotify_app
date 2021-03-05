@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:spotify_app/screen/splash_screen.dart';
 
+import 'home_screen.dart';
 import 'login_screen.dart';
 
 class BaseScreen extends StatelessWidget {
@@ -9,7 +10,8 @@ class BaseScreen extends StatelessWidget {
     return PageView(
       children: [
         // SplashScreen(),
-        LoginScreen(),
+        // LoginScreen(),
+        HomeScreen(),
       ],
     );
   }
