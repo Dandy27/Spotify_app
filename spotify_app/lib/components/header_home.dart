@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HeaderHome extends StatelessWidget {
   final String text = 'Boa Noite';
@@ -12,11 +13,7 @@ class HeaderHome extends StatelessWidget {
           alignment: Alignment.centerLeft,
           child: Text(
             text,
-            style: TextStyle(
-                decoration: TextDecoration.none,
-                fontSize: 20,
-                color: Colors.white70,
-                fontWeight: FontWeight.bold),
+            style:GoogleFonts.roboto(color: Colors.white70, fontSize: 20, decoration: TextDecoration.none),
           ),
         ),
       ),

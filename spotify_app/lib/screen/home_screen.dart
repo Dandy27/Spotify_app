@@ -60,11 +60,11 @@ class HomeScreen extends StatelessWidget {
                   ],
                 ),
                 SizedBox(
-                  height: 10,
+                  height: 20,
                 ),
                 BodyTextHome(text: 'Tocadas recentementes',),
                 SizedBox(
-                  height: 10,
+                  height: 5,
                 ),
                 SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
@@ -102,15 +102,15 @@ class HomeScreen extends StatelessWidget {
                         imageMediun: Image.asset('images/desplugado.png'),
                         textMediun: 'Desplugado',
                       ),
-                      SizedBox(
-                        height: 15,
-                      ),
                     ],
                   ),
+                ),
+                SizedBox(
+                  height: 15,
                 ),
                 BodyTextHome(text: 'Vamos falar de tecnologia',),
                 SizedBox(
-                  height: 10,
+                  height: 5,
                 ),
                 SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
@@ -148,16 +148,13 @@ class HomeScreen extends StatelessWidget {
                         imageMediun: Image.asset('images/desplugado.png'),
                         textMediun: 'Desplugado',
                       ),
-                      SizedBox(
-                        height: 15,
-                      ),
                     ],
                   ),
                 ),
-                BodyTextHome(text: 'Relax',),
                 SizedBox(
-                  height: 10,
+                  height: 15,
                 ),
+                BodyTextHome(text: 'Relax',),
                 SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: Row(

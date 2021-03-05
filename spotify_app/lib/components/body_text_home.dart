@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class BodyTextHome extends StatelessWidget {
   final String text;
@@ -14,15 +15,15 @@ class BodyTextHome extends StatelessWidget {
           alignment: Alignment.centerLeft,
           child: Text(
             text,
-            style: TextStyle(
-                decoration: TextDecoration.none,
-                fontSize: 20,
-                color: Colors.white70,
-                fontWeight: FontWeight.bold)
-
+            style: GoogleFonts.roboto(fontSize: 20, color: Colors.white70, decoration: TextDecoration.none)
           ),
         ),
       ),
     );
   }
 }
+//TextStyle(
+//                 decoration: TextDecoration.none,
+//                 fontSize: 20,
+//                 color: Colors.white70,
+//                 fontWeight: FontWeight.bold)
