@@ -26,7 +26,7 @@ class MiniContainer extends StatelessWidget {
                       bottomLeft: Radius.circular(5)),
                   child: imageMini)),
           Flexible(
-            child: FlatButton(
+            child: TextButton(
                 onPressed: () {},
                 child: Text(
                   textMini,
